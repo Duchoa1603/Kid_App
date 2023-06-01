@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_trangchu"
+            android:icon="@drawable/baseline_home_24"
+            android:title="ГЛАВНАЯ СТРАНИЦА" />
+        <item
+            android:id="@+id/nav_hoso"
+            android:icon="@drawable/baseline_account_circle_24"
+            android:title="ПРОФИЛЬ ПОЛЬЗОВАТЕЛЯ" />
+
+        <item
+            android:id="@+id/nav_meo"
+            android:icon="@drawable/baseline_account_tree_24"
+            android:title="СОВЕТЫ" />
+
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/baseline_support_agent_24"
+            android:title="ПОДДЕРЖИВАТЬ" />
+
+        <item
+            android:id="@+id/nav_chucai"
+            android:icon="@drawable/ic_baseline_22mp_24"
+            android:title="АЛФАВИТ" />
+
+        <item
+            android:id="@+id/nav_chuso"
+            android:icon="@drawable/ic_baseline_123_24"
+            android:title="ЧИСЛО" />
+
+        <item
+            android:id="@+id/nav_hinhhoc"
+            android:icon="@drawable/ic_baseline_camera_24"
+            android:title="ЦВЕТ" />
+
+        <item
+            android:id="@+id/nav_doan"
+            android:icon="@drawable/ic_baseline_question_mark_24"
+            android:title="ЗАГАДКИ" />
+        <item
+            android:id="@+id/nav_toanhoc"
+            android:icon="@drawable/ic_baseline_live_help_24"
+            android:title="МАТЕМАТИКА" />
+    </group>
+    <item
+        android:title="">
+
+        <menu>
+            <item
+                android:icon="@drawable/ic_baseline_logout_24"
+                android:id="@+id/nav_logout"
+                android:title="выйти"/>
+        </menu>
+
+    </item>
+
+</menu>
