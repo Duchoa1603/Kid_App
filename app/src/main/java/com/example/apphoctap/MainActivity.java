@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.FragmentManager;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -100,6 +101,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             case R.id.nav_support:
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new SupportFragment(),null).addToBackStack(null).commit();
+                SupportFragment supportFragment = new SupportFragment();
+                FragmentManager manager = getSupportFragmentManager();
+                manager.beginTransaction().replace(R.id.fragment_container,supportFragment).commit();
                 break;
 
             case R.id.nav_doan:

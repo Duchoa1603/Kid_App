@@ -24,12 +24,12 @@
             android:textSize="20dp"
             android:textColor="@android:color/black"
             android:id="@+id/edit2"/>
+
     <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Отправить отзыв"
         android:layout_centerInParent="true"
-        android:id="@+id/button"
-        android:textSize="20dp"
-        />
+        android:text="Отправить отзыв"
+        android:textSize="20dp" />
 </RelativeLayout>

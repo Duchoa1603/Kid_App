@@ -145,7 +145,7 @@ public class GhepTuActivity extends AppCompatActivity {
         if(score > totalQuestion*0.60){
             passStatus = "Пройденный";
         }else{
-            passStatus = "Неудачный";
+            passStatus = "Конец";
         }
 
         new AlertDialog.Builder(this)

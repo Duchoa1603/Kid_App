@@ -60,6 +60,19 @@ public class DataBaseCommon {
         list.add(new CardCommon(R.drawable.a007,R.raw.a7));
         list.add(new CardCommon(R.drawable.a008,R.raw.a8));
         list.add(new CardCommon(R.drawable.a009,R.raw.a9));
+        list.add(new CardCommon(R.drawable.a10,R.raw.ad10));
+        list.add(new CardCommon(R.drawable.a11,R.raw.ad11));
+        list.add(new CardCommon(R.drawable.a12,R.raw.ad12));
+        list.add(new CardCommon(R.drawable.a13,R.raw.ad13));
+        list.add(new CardCommon(R.drawable.a14,R.raw.ad14));
+        list.add(new CardCommon(R.drawable.a15,R.raw.ad15));
+        list.add(new CardCommon(R.drawable.a16,R.raw.ad16));
+        list.add(new CardCommon(R.drawable.a17,R.raw.ad17));
+        list.add(new CardCommon(R.drawable.a18,R.raw.ad18));
+        list.add(new CardCommon(R.drawable.a19,R.raw.ad19));
+        list.add(new CardCommon(R.drawable.a20,R.raw.ad20));
+
+
         return list;
     }
 
@@ -108,13 +121,14 @@ public class DataBaseCommon {
         list.add(new Quizz("2 + 10 = ?","13","14","11","12","12"));
         list.add(new Quizz("10 + 7 = ?","16","15","17","18","17"));
         list.add(new Quizz("6 - 5 = ?","4","1","3","2","1"));
-        list.add(new Quizz("10 + 15 = ?","25","24","23","22","25"));
+        list.add(new Quizz("24 - 14 = ?","10","11","12","13","10"));
         list.add(new Quizz("20 - 7 = ?","13","12","11","10","13"));
         list.add(new Quizz("10 - 3 = ?","6","5","4","7","7"));
         list.add(new Quizz("30 + 5 = ?","34","35","36","37","35"));
         list.add(new Quizz("50 - 20 = ?","27","28","29","30","30"));
         list.add(new Quizz("15 + 7 = ?","20","21","22","23","22"));
-        list.add(new Quizz("10 + 4 = ?","13","14","15","16","14"));
+
+        list.add(new Quizz("10 - 4 = ?","8","7","6","5","6"));
         list.add(new Quizz("18 + 2 = ?","20","22","23","24","20"));
         list.add(new Quizz("23 - 7 = ?","15","17","16","20","16"));
         list.add(new Quizz("10 + 7 = ?","18","16","17","12","17"));
@@ -124,6 +138,29 @@ public class DataBaseCommon {
         list.add(new Quizz("17 + 7 = ?","24","25","26","30","24"));
         list.add(new Quizz("19 + 7 = ?","13","29","26","27","26"));
         list.add(new Quizz("77 - 27 = ?","51","48","50","49","50"));
+
+        list.add(new Quizz("15 + 4 = ?","20","21","19","18","19"));
+        list.add(new Quizz("44 + 16 = ?","62","60","61","63","60"));
+        list.add(new Quizz("22 + 18 = ?","40","39","41","38","40"));
+        list.add(new Quizz("23 - 13 = ?","8","11","10","9","10"));
+        list.add(new Quizz("71 + 14 = ?","84","83","86","85","85"));
+        list.add(new Quizz("23 + 13 = ?","36","35","34","33","36"));
+        list.add(new Quizz("6 + 16 = ?","20","21","22","23","22"));
+        list.add(new Quizz("20 + 11 = ?","21","22","32","31","31"));
+        list.add(new Quizz("17 + 32 = ?","46","47","48","49","49"));
+        list.add(new Quizz("9 + 2 = ?","13","12","11","10","11"));
+
+        list.add(new Quizz("18 -12 = ?","6","5","4","3","6"));
+        list.add(new Quizz("9 + 13 = ?","20","21","22","23","22"));
+        list.add(new Quizz("43 - 9 = ?","32","33","34","35","34"));
+        list.add(new Quizz("84 - 22 = ?","59","60","61","62","62"));
+        list.add(new Quizz("11 + 8 = ?","17","19","11","10","19"));
+        list.add(new Quizz("6 + 16 = ?","20","21","22","23","22"));
+        list.add(new Quizz("20 + 1 = ?","21","12","32","40","21"));
+        list.add(new Quizz("17 + 7 = ?","24","25","26","30","24"));
+        list.add(new Quizz("19 + 7 = ?","13","29","26","27","26"));
+        list.add(new Quizz("77 - 27 = ?","51","48","50","49","50"));
+
         list.add(new Quizz("15 + 4 = ?","20","21","19","18","19"));
         list.add(new Quizz("44 + 16 = ?","62","60","61","63","60"));
         list.add(new Quizz("22 + 18 = ?","40","39","41","38","40"));
@@ -141,34 +178,36 @@ public class DataBaseCommon {
 
     public static List<GhepTu> getListNhinVat() {
         List<GhepTu> list = new ArrayList<>();
-        list.add(new GhepTu(R.drawable.conbo1,"оавкор","корова"));
+        list.add(new GhepTu(R.drawable.dom,"дмо","дом"));
+        list.add(new GhepTu(R.drawable.dog,"акасоб","собака"));
+        list.add(new GhepTu(R.drawable.ga,"цкуриа","курица"));
+        list.add(new GhepTu(R.drawable.tao,"олябок","яблоко"));
+        list.add(new GhepTu(R.drawable.gau,"ьддемве","медведь"));
+        list.add(new GhepTu(R.drawable.bong,"мяч","мяч"));
+        list.add(new GhepTu(R.drawable.ho,"грти","тигр"));
+        list.add(new GhepTu(R.drawable.tho,"клиорк","кролик"));
+        list.add(new GhepTu(R.drawable.voi,"носл","слон"));
+        list.add(new GhepTu(R.drawable.conbo1,"ригб","гриб"));
+
         list.add(new GhepTu(R.drawable.dog,"акасоб","собака"));
         list.add(new GhepTu(R.drawable.conheo,"винсья","свинья"));
         list.add(new GhepTu(R.drawable.ga,"цкуриа","курица"));
         list.add(new GhepTu(R.drawable.cat2,"окт","кот"));
-
         list.add(new GhepTu(R.drawable.gau,"ьддемве","медведь"));
         list.add(new GhepTu(R.drawable.ho,"грти","тигр"));
         list.add(new GhepTu(R.drawable.tho,"клиорк","кролик"));
         list.add(new GhepTu(R.drawable.voi,"носл","слон"));
-
         list.add(new GhepTu(R.drawable.conbo1,"оавкор","корова"));
         list.add(new GhepTu(R.drawable.dog,"акасоб","собака"));
+
         list.add(new GhepTu(R.drawable.conheo,"винсья","свинья"));
         list.add(new GhepTu(R.drawable.ga,"цкуриа","курица"));
         list.add(new GhepTu(R.drawable.cat2,"окт","кот"));
-
         list.add(new GhepTu(R.drawable.gau,"ьддемве","медведь"));
         list.add(new GhepTu(R.drawable.ho,"грти","тигр"));
-        list.add(new GhepTu(R.drawable.tho,"клиорк","кролик"));
-        list.add(new GhepTu(R.drawable.voi,"носл","слон"));
-
-        list.add(new GhepTu(R.drawable.conbo1,"оавкор","корова"));
-        list.add(new GhepTu(R.drawable.dog,"акасоб","собака"));
         list.add(new GhepTu(R.drawable.conheo,"винсья","свинья"));
         list.add(new GhepTu(R.drawable.ga,"цкуриа","курица"));
         list.add(new GhepTu(R.drawable.cat2,"окт","кот"));
-
         list.add(new GhepTu(R.drawable.gau,"ьддемве","медведь"));
         list.add(new GhepTu(R.drawable.ho,"грти","тигр"));
 

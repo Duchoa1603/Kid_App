@@ -155,7 +155,7 @@ public class QuizzActivity extends AppCompatActivity implements View.OnClickList
         if(score > totalQuestion*0.60){
             passStatus = "Пройденный";
         }else{
-            passStatus = "Неудачный";
+            passStatus = "Конец";
         }
 
         new AlertDialog.Builder(this)

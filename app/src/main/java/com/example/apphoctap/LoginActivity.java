@@ -56,7 +56,22 @@ public class LoginActivity extends AppCompatActivity {
                 String password = editTextPassword.getText().toString().trim();
 
                 User user = db.getUser(email, password);
-                if (user != null) {
+//                if (user != null) {
+//                    Intent i = new Intent(LoginActivity.this, MainActivity.class);
+//                    i.putExtra("User", user);
+//                    startActivity(i);
+//                    finish();
+//                }else{
+//                    Toast.makeText(LoginActivity.this, "Незарегистрированный пользователь или неверный", Toast.LENGTH_SHORT).show();
+//                }
+
+                if(editTextEmail.length()==0){
+                    editTextEmail.setError("Введите Email");
+                }
+                else if(editTextPassword.length()==0){
+                    editTextPassword.setError("Введите пароль");
+                }
+                else if (user != null) {
                     Intent i = new Intent(LoginActivity.this, MainActivity.class);
                     i.putExtra("User", user);
                     startActivity(i);
@@ -64,6 +79,7 @@ public class LoginActivity extends AppCompatActivity {
                 }else{
                     Toast.makeText(LoginActivity.this, "Незарегистрированный пользователь или неверный", Toast.LENGTH_SHORT).show();
                 }
+
             }
         });
 
